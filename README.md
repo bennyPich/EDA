@@ -7,7 +7,7 @@ You're an analyst at Crankshaft List. Hundreds of free advertisements for vehicl
 1. Open the data file and study the general information
 File path: /datasets/vehicles_us.csv.
 2. Data preprocessing
- ### Identify and study missing values:
+ #### Identify and study missing values:
   - In some cases there's an obvious way to replace missing values. For instance, if a Boolean field contains only True values, it's reasonable to assume that the missing values are False. There aren't such obvious fixes for other data types, and there are cases when the fact that a value is missing is significant. In such instances, don't fill in the values.  
   - When appropriate, do fill in the values. Explain why you chose to do so and how you selected the replacement values.
   - Describe the factors that may have resulted in missing values.
