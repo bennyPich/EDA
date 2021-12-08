@@ -14,18 +14,18 @@ File path: /datasets/vehicles_us.csv.
 
  ### Convert the data to the required types:
   - Indicate the columns where the data types need to be changed and explain why.
-  - 
+  
 3. Calculate and add to the table the following:
-  - Day of the week, month, and year the ad was placed
-  - The vehicle's age (in years) when the ad was placed
-  - The vehicle's average mileage per year
+   - Day of the week, month, and year the ad was placed
+   - The vehicle's age (in years) when the ad was placed
+   - The vehicle's average mileage per year
  In the condition column, replace string values with a numeric scale:
-  - new = 5
-  - like new = 4
-  - excellent = 3
-  - good = 2
-  - fair = 1
-  - salvage = 0
+   - new = 5
+   - like new = 4
+   - excellent = 3
+   - good = 2
+   - fair = 1
+   - salvage = 0
 4. Carry out exploratory data analysis, following the instructions below:
   - Study the following parameters: price, vehicle's age when the ad was placed, mileage, number of cylinders, and condition. Plot histograms for each of these parameters. Study how outliers affect the form and readability of the histograms.
   - Determine the upper limits of outliers, remove the outliers and store them in a separate DataFrame, and continue your work with the filtered data.
